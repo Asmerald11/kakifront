@@ -17,7 +17,7 @@ export async function registerUser (registroUsuario) {
         }
         return response
   } catch (e) {
-        alert("No fue posible crear el usuario, ver consola para mas informacion")
+        alert("No fue posible crear el usuario")
         console.log(e)
   }
 
@@ -33,7 +33,7 @@ export async function loginUser (logueoUsuario) {
 
     console.log(response)
     if(response.status === 200){
-      alert(`Logueado correctamente, bienvenido/a ${logueoUsuario.email}`)
+      alert(`Inicio de sesion exitoso, bienvenido/a ${logueoUsuario.email}`)
     }
     return response
   }  catch (e) {
