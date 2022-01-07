@@ -17,7 +17,7 @@ export async function registerUser (registroUsuario) {
         }
         return response
   } catch (e) {
-        alert("No fue posible crear el usuario")
+        alert("Error crear el usuario, intente nuevamente.")
         console.log(e)
   }
 
