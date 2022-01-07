@@ -19,6 +19,13 @@ inicio de sesión y registro y redirecciones a las redes sociales de la artista 
   El proyecto cuenta con distintos media queries que posibilitan su visualización tanto en monitores full hd (1920x1080)
 como en dispositivos moviles de menor resolución.
 
+### Notas de parche:
+   El proyecto es una re-versión del proycto del curso inicial, aparte de los cambios de base de datos y el uso de React,
+se implementaron los siguientes cambios siguiendo las sugerencias del profesor ayudante Nicolás Perez:
+- Corregido un bug que prevenia el media query en la pagina de comisiones.
+- Corregido un bug que prevenia que los iconos esten centrados en el footer.
+- Se invirtieron las posiciones de el logo "Kakidraws" y el boton de menu en moviles para que coincida con el despliegue del menu.
+
 ### Temas aplicados:
 
 - HTML
